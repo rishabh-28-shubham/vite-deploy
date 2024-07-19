@@ -6,7 +6,26 @@
 
 * {
   box-sizing: border-box;
+  /* internet Explorer */
+  -ms-overflow-style: none;
+  /* Fire-Fox */
+  scrollbar-width: none;
 }
+
+/* Special methods of Opera GX Browser */
+body::-webkit-scrollbar {
+  width: 0px;
+  /* Opera GX */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
 
 html {
   font-family: "Quicksand", sans-serif;
