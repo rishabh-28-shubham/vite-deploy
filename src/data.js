@@ -17,7 +17,7 @@ export const CORE_CONCEPTS = [
     },
     {
         img: propsImg,
-        title: "JSX",
+        title: "props",
         Description: "Make components configurable (and therefore reusable) by passing input data to them."
     },
     {
